@@ -1,8 +1,7 @@
-.dockerignore
 Dockerfile
-Dockerfile.dev
-.nvmrc
-dist
+.dockerignore
 node_modules
-pnpm-lock.yaml
-.gitignore
+npm-debug.log
+README.md
+.next
+.git
