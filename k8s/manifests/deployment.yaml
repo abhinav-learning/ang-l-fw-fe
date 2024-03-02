@@ -1,0 +1,22 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: ang-l-fw-fe
+spec:
+  selector:
+    matchLabels:
+      app: ang-l-fw-fe
+  template:
+    metadata:
+      labels:
+        app: ang-l-fw-fe
+    spec:
+      containers:
+        - name: ang-l-fw-fe
+          image: abhiit89/ang-l-fw-fe
+          resources:
+            limits:
+              memory: "128Mi"
+              cpu: "500m"
+          ports:
+            - containerPort: 3000

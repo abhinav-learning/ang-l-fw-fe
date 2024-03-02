@@ -5,3 +5,11 @@ npm-debug.log
 README.md
 .next
 .git
+.nvmrc
+pnpm-lock.yaml
+.gitignore
+Makefile
+*.sh
+*.md
+k8s/**/*
+k8s/**/*.yaml
