@@ -6,7 +6,6 @@ README.md
 .next
 .git
 .nvmrc
-pnpm-lock.yaml
 .gitignore
 Makefile
 *.sh
